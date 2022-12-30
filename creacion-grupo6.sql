@@ -51,6 +51,7 @@ CONSTRAINT equipos_uk1 UNIQUE (id_competidor),
 CONSTRAINT equipos_fk1 FOREIGN KEY (id_competidor) REFERENCES Competidores (id_competidor)
 );
 
+
 CREATE TABLE Clasificacion_individual(
 id_competidor       INT(3)          NOT NULL,
 id_estilo           INT(2),
@@ -271,4 +272,20 @@ VALUES (104,'Leah','Neale',1,2),
        (116,'Madison','Wilson',1,2),
        (117,'Rachel','Nicol',3,2);
 
-SELECT * FROM Competidores WHERE id_categoria=2;
+INSERT INTO Competidores (id_competidor, nombre, apellido, id_pais, id_categoria)
+VALUES (118,'Jack','Cartwright',1,1);
+
+SELECT * FROM Competidores WHERE id_categoria=1;
+
+
+INSERT INTO Equipos (id_equipo, id_competidor)
+VALUES (1,28),(1,37),(1,15),(1,38),(1,16),
+       (2,39),(2,40),(2,118),(2,42),
+       (3,43),(3,18),(3,44),(3,45),
+       (4,46),(4,34),(4,47),(4,48),(4,49),(4,50),
+       (5,8),(5,51),(5,52),(5,53),(5,54),
+       (6,55),(6,56),(6,57),(6,7),(6,58),
+       (7,18),(7,23),(7,59),(7,43),(7,60),(7,44),
+       (8,19),(8,22),(8,2),(8,37),(8,16),(8,47),(8,38),
+       (9,20),(9,62),(9,55),(9,7),(9,63),(9,64);
+
