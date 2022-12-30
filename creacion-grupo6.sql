@@ -214,4 +214,61 @@ DELETE FROM Competidores WHERE id_competidor=61;
 INSERT INTO Competidores (id_competidor, nombre, apellido, id_pais, id_categoria)
 VALUES (61, 'Sarah','Sjöström', 17,2);
 
-SELECT * FROM Competidores;
+INSERT INTO Competidores (id_competidor, nombre, apellido, id_pais, id_categoria)
+VALUES (65,'Katarzyna','Wasick', 13,2),
+       (66,'Meg','Harris',1,2),
+       (67,'Erika','Brown',19,2),
+       (68,'Mollie','O Callaghan', 1,2),
+       (69, 'Torri','Huske',19,2),
+       (70,'Yang','Junxuan',4,2),
+       (71,'Tang','Mugan',4,2),
+       (72,'Katie','Ledecky',19,2),
+       (73,'Summer','McIntosh', 3,2),
+       (74,'Leah','Smith',19,2),
+       (75,'Kiah','Melverton',1,2),
+       (76,'Simona','Quadarella',9,2),
+       (77,'Katie','Grimes',19,2),
+       (78,'Lani','Pallister',1,2),
+       (79,'Kylie','Masse',3,2),
+       (80,'Katharine','Berkoff',19,2),
+       (81,'Analia','Pigrée',5,2),
+       (82, 'Regan','Smith',19,2),
+       (83,'Claire','Curzan',19,2),
+       (84,'Kaylee','McKeown',1,2),
+       (85,'Phoebe','Bacon',19,2),
+       (86,'Rhyan','White',19,2),
+       (87,'Ruta','Meilutyte',11,2),
+       (88,'Benedetta','Pilato',9,2),
+       (89,'Lara','van Niekerk', 15,2),
+       (90,'Anna','Elendt',6,2),
+       (91, 'Lilly','King',19,2),
+       (92,'Jenna','Strauch',1,2),
+       (93,'Kate','Douglass',19,2),
+       (94,'Mélanie','Henique',5,2),
+       (95,'Zhang','Yufei',4,2),
+       (96,'Marie','Wattel',5,2),
+       (97,'Hali','Flickinger',19,2),
+       (98,'Alexandra','Walsh',19,2),
+       (99,'Leah','Hayes',19,2),
+       (100,'Emma','Weyant',19,2),
+       (101,'Madison','Wilson',1,2),
+       (102,'Meg','Harris',1,2),
+       (103,'Shayna','Jack',1,2);
+
+INSERT INTO Competidores (id_competidor, nombre, apellido, id_pais, id_categoria)
+VALUES (104,'Leah','Neale',1,2),
+       (105,'Brianna','Throssell',1,2),
+       (106,'Kayla','Sanchez',3,2),
+       (107,'Taylor','Ruck',3,2),
+       (108,'Maggie','Mac Neil',3,2),
+       (109,'Penny','Oleksiak',3,2),
+       (110,'Rebecca','Smith',3,2),
+       (111,'Katerine','Savard',3,2),
+       (112,'Mallory','Comerford',19,2),
+       (113,'Natalie','Hinds',19,2),
+       (114,'Claire','Weinstein',19,2),
+       (115,'Bella','Sims',19,2),
+       (116,'Madison','Wilson',1,2),
+       (117,'Rachel','Nicol',3,2);
+
+SELECT * FROM Competidores WHERE id_categoria=2;
