@@ -141,3 +141,77 @@ VALUES (1, 'freestyle', '50m'),
 
 SELECT * FROM Estilos_nado;
 
+INSERT INTO Competidores (id_competidor, nombre, apellido, id_pais, id_categoria)
+VALUES (1, 'Ben', 'Proud', 7, 1),
+       (2, 'Michael', 'Andrew', 19, 1),
+       (3, 'Maxime', 'Grousset', 5, 1),
+       (4, 'David', 'Popovici', 14, 1),
+       (5, 'Joshua', 'Liendo', 3, 1),
+       (6, 'Hwang', 'Sun-woo', 16, 1),
+       (7, 'Tom', 'Dean', 7, 1),
+       (8, 'Elijah', 'Winnington', 1, 1),
+       (9, 'Lukas', 'Märtens', 6, 1),
+       (10, 'Guilherme', 'Costa', 2, 1),
+       (11, 'Bobby', 'Finke', 19, 1),
+       (12, 'Florian', 'Wellbrock', 6,1),
+       (13, 'Mykhailo','Romanchuk', 18, 1),
+       (14, 'Gregorio', 'Paltrinieri', 9,1),
+       (15, 'Justin', 'Ress', 19,1),
+       (16, 'Hunter', 'Armstrong', 19,1),
+       (17, 'Ksawery', 'Masiuk', 13, 1),
+       (18, 'Thomas', 'Ceccon', 9,1),
+       (19, 'Ryan', 'Murphy', 19,1);
+
+INSERT INTO Competidores (id_competidor, nombre, apellido, id_pais, id_categoria)
+VALUES (20, 'Luke', 'Greenbank', 7,1),
+       (21, 'Shaine', 'Casas', 19,1),
+       (22, 'Nic', 'Fink', 19,1),
+       (23, 'Nicolò', 'Martinenghi', 9,1),
+       (24, 'Amo', 'Kamminga', 12,1),
+       (25, 'Zac', 'Stubblety-Cook', 1,1),
+       (26, 'Yu', 'Hanaguruma', 10,1),
+       (27, 'Erik', 'Persson', 17,1),
+       (28, 'Caeleb', 'Dressel', 19,1),
+       (29, 'Nicholas', 'Santos', 2,1),
+       (30, 'Kristóf', 'Milák', 8,1),
+       (31, 'Naoki','Mizunuma', 10,1),
+       (32, 'Léon', 'Marchand', 5,1),
+       (33, 'Tomoru','Honda', 10,1),
+       (34, 'Carson', 'Foster', 19,1),
+       (35, 'Daiya', 'Seto', 10,1),
+       (36, 'Chase', 'Kalisz', 19,1),
+       (37, 'Ryan', 'Held', 19,1),
+       (38, 'Brooks', 'Curry', 19,1),
+       (39, 'William','Yang', 1,1),
+       (40, 'Matthew','Temple', 1,1),
+       (41, 'Jack','Cartwright', 1,1),
+       (42, 'Kyle','Chalmers', 1,1),
+       (43, 'Alessandro', 'Miressi', 9,1),
+       (44, 'Lorenzo','Zazzeri', 9,1),
+       (45, 'Manuel','Frigo', 9,1),
+       (46, 'Drew', 'Kibler',19,1),
+       (47, 'Trenton','Julian',19,1),
+       (48, 'Kieran','Smith',19,1),
+       (49, 'Trey', 'Freeman',19,1),
+       (50, 'Coby','Carrozza', 19,1),
+       (51, 'Zac','Incerti', 1,1),
+       (52, 'Samuel','Short', 1,1),
+       (53, 'Mack','Horton', 1,1),
+       (54, 'Brendon','Smith', 1,1),
+       (55, 'James','Guy',7,1),
+       (56, 'Jacob','Whittle',7,1),
+       (57, 'Joe','Litchfield',7,1),
+       (58, 'Matthew','Richards',7,1),
+       (59, 'Federico','Burdisso',9,1),
+       (60, 'Piero','Codia', 9,1),
+       (61,'Ryan','Held',19,1),
+       (62,'James','Wilby',7,1),
+       (63,'Jacob','Peters',7,1),
+       (64,'Lewis','Burras',7,1);
+
+DELETE FROM Competidores WHERE id_competidor=61;
+
+INSERT INTO Competidores (id_competidor, nombre, apellido, id_pais, id_categoria)
+VALUES (61, 'Sarah','Sjöström', 17,2);
+
+SELECT * FROM Competidores;
