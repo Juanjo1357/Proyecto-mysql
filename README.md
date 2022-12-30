@@ -10,7 +10,7 @@ Se ha instalado también **Git**, para poder controlar las versiones del proyect
 Por último, se ha realizado una conexión entre Git y MySQL con DataGrip, y DataGrip se ha conectado a su vez con **GitHub**.
 
 Los tres integrantes del proyecto tenemos acceso al repositorio en línea de GitHub para poder actualizar los datos del proyecto, compartirlos y tener un control de las versiones.
-
+ 
 ## Instalación MySQL
 
 ### Constraseña root
