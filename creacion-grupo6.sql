@@ -30,6 +30,9 @@ distancia_metros    INT(3)          NOT NULL,
 CONSTRAINT estilos_nado_pk PRIMARY KEY (id_estilo)
 );
 
+ALTER TABLE Estilos_nado MODIFY
+distancia_metros    VARCHAR(6);
+
 CREATE TABLE Competidores(
 id_competidor       INT(3),
 nombre              VARCHAR(50)     NOT NULL,
@@ -85,8 +88,6 @@ CONSTRAINT records_fk3 FOREIGN KEY (id_pais) REFERENCES Paises (id_pais)
 
 SHOW FULL TABLES FROM MundialNatacion2022;
 
-SELECT * FROM Paises;
-
 INSERT INTO Paises (id_pais, nombre_pais)
 VALUES (1, 'Australia'),
        (2, 'Brazil'),
@@ -108,5 +109,35 @@ VALUES (1, 'Australia'),
        (18, 'Ukraine'),
        (19, 'United States');
 
+SELECT * FROM Paises;
 
+INSERT INTO Categorias (id_categoria, genero)
+VALUES (1, 'Men'), (2, 'Women');
+
+INSERT INTO Medallas (id_medalla, nombre_medalla)
+VALUES (1, 'Gold'), (2, 'Silver'), (3, 'Bronze');
+
+INSERT INTO Estilos_nado (id_estilo, nombre, distancia_metros)
+VALUES (1, 'freestyle', '50m'),
+       (2, 'freestyle', '100m'),
+       (3, 'freestyle', '200m'),
+       (4, 'freestyle', '400m'),
+       (5, 'freestyle', '800m'),
+       (6, 'freestyle', '1500m'),
+       (7, 'backstroke', '50m'),
+       (8, 'backstroke', '100m'),
+       (9, 'backstroke', '200m'),
+       (10, 'breaststroke', '50m'),
+       (11, 'breaststroke', '100m'),
+       (12, 'breaststroke', '200m'),
+       (13, 'butterfly', '50m'),
+       (14, 'butterfly', '100m'),
+       (15, 'butterfly', '200m'),
+       (16, 'individual medley', '200m'),
+       (17, 'individual medley', '400m'),
+       (18, 'freestyle relay', '4x100m'),
+       (19, 'freestyle relay', '4x200m'),
+       (20, 'medley relay', '4x100m');
+
+SELECT * FROM Estilos_nado;
 
