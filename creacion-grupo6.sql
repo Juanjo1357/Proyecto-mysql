@@ -85,3 +85,28 @@ CONSTRAINT records_fk3 FOREIGN KEY (id_pais) REFERENCES Paises (id_pais)
 
 SHOW FULL TABLES FROM MundialNatacion2022;
 
+SELECT * FROM Paises;
+
+INSERT INTO Paises (id_pais, nombre_pais)
+VALUES (1, 'Australia'),
+       (2, 'Brazil'),
+       (3, 'Canada'),
+       (4, 'China'),
+       (5, 'France'),
+       (6, 'Germany'),
+       (7, 'Great Britain'),
+       (8, 'Hungary'),
+       (9, 'Italy'),
+       (10, 'Japan'),
+       (11, 'Lithuania'),
+       (12, 'Netherlands'),
+       (13, 'Poland'),
+       (14, 'Romania'),
+       (15, 'South Africa'),
+       (16, 'South Korea'),
+       (17, 'Sweden'),
+       (18, 'Ukraine'),
+       (19, 'United States');
+
+
+
