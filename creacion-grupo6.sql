@@ -46,10 +46,11 @@ CONSTRAINT competidores_fk1 FOREIGN KEY (id_pais) REFERENCES Paises (id_pais)
 CREATE TABLE Equipos(
 id_equipo           INT(1),
 id_competidor       INT(3)          NOT NULL,
-CONSTRAINT equipos_pk PRIMARY KEY (id_equipo),
-CONSTRAINT equipos_uk1 UNIQUE (id_competidor),
+CONSTRAINT equipos_pk PRIMARY KEY (id_equipo,id_competidor),
 CONSTRAINT equipos_fk1 FOREIGN KEY (id_competidor) REFERENCES Competidores (id_competidor)
 );
+
+DROP TABLE Equipos;
 
 
 CREATE TABLE Clasificacion_individual(
@@ -74,6 +75,8 @@ CONSTRAINT clasificacion_grupal_fk2 FOREIGN KEY (id_estilo) REFERENCES Estilos_n
 CONSTRAINT clasificacion_grupal_fk3 FOREIGN KEY (id_medalla) REFERENCES Medallas (id_medalla),
 CONSTRAINT clasificacion_grupal_uk1 UNIQUE (id_equipo)
 );
+
+DROP TABLE Clasificacion_grupal;
 
 CREATE TABLE Records (
 fecha               DATE,
@@ -279,13 +282,21 @@ SELECT * FROM Competidores WHERE id_categoria=1;
 
 
 INSERT INTO Equipos (id_equipo, id_competidor)
-VALUES (1,28),(1,37),(1,15),(1,38),(1,16),
-       (2,39),(2,40),(2,118),(2,42),
-       (3,43),(3,18),(3,44),(3,45),
-       (4,46),(4,34),(4,47),(4,48),(4,49),(4,50),
-       (5,8),(5,51),(5,52),(5,53),(5,54),
-       (6,55),(6,56),(6,57),(6,7),(6,58),
-       (7,18),(7,23),(7,59),(7,43),(7,60),(7,44),
+VALUES (1,28),(1,37),(1,15),(1,38),(1,16);
+
+INSERT INTO Equipos (id_equipo, id_competidor)
+VALUES (2,39),(2,40),(2,118),(2,42),
+       (3,43),(3,18),(3,44),(3,45);
+INSERT INTO Equipos (id_equipo, id_competidor)
+VALUES(4,46),(4,34),(4,47),(4,48),(4,49),(4,50),
+       (5,8),(5,51),(5,52),(5,53),(5,54);
+INSERT INTO Equipos (id_equipo, id_competidor)
+VALUES (6,55),(6,56),(6,57),(6,7),(6,58);
+
+INSERT INTO Equipos (id_equipo, id_competidor)
+VALUES (7,18),(7,23),(7,59),(7,43),(7,60),(7,44),
        (8,19),(8,22),(8,2),(8,37),(8,16),(8,47),(8,38),
        (9,20),(9,62),(9,55),(9,7),(9,63),(9,64);
+
+Select * FROM Equipos;
 
