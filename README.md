@@ -144,8 +144,9 @@ Para crear estas tablas, han sido necesarios muchos datos que se relacionan con 
 Pantallazo de la conexión de datagrip con la base de datos
 
 ![ConexionMySQL21][img21]
-
-[img21]: https://github.com/Juanjo1357/Proyecto-mysql/blob/main/ProcesoInstalacion/ConexionMySQL.png "ConexionMySQL21"
+[img21]: https://github.com/Juanjo1357/Proyecto-mysql/blob/main/ProcesoInstalacion/gbd.jpg "ConexionMySQL21"
+![ConexionMySQL22][img22]
+[img22]: https://github.com/Juanjo1357/Proyecto-mysql/blob/main/ProcesoInstalacion/ConexionMySQL.png "ConexionMySQL22"
 
 ## Conclusiones
 dificultades y problemas
