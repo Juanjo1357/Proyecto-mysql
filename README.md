@@ -20,25 +20,25 @@ En segundo lugar, elegimos donde queremos que se nos instale el workbench.
 ![Instalacion2][img2]
 
 [img2]: https://github.com/Juanjo1357/Proyecto-mysql/blob/main/ProcesoInstalacion/Instalacion02.png "Instalacion2"
-
+Luego nos saldrá para elegir entre estos requerimientos que nos sugiere MySQL Installer no nos son compatibles con DataGrip ya que uno es para Visual Studio y el otro es para Python.
 ![Instalacion3][img3]
-
+En esta imágen se visualiza lo que está listo para instalarse, le damos a "Execute" para que empiece la instalación.
 [img3]: https://github.com/Juanjo1357/Proyecto-mysql/blob/main/ProcesoInstalacion/Instalacion03.png "Instalacion3"
 
 ![Instalacion4][img4]
-
+Aquí veremos los productos que están preparados para ser configurados.
 [img4]: https://github.com/Juanjo1357/Proyecto-mysql/blob/main/ProcesoInstalacion/Instalacion04.png "Instalacion4"
 
 ![Instalacion5][img5]
-
+Luego configuramos los puertos y la conectividad.
 [img5]: https://github.com/Juanjo1357/Proyecto-mysql/blob/main/ProcesoInstalacion/Instalacion05.png "Instalacion5"
 
 ![Instalacion6][img6]
-
+Aquí veremos los metodos de autentificación, el cual marcamos la de usar una contraseña fuerte y encriptada.
 [img6]: https://github.com/Juanjo1357/Proyecto-mysql/blob/main/ProcesoInstalacion/Instalacion06.png "Instalacion6"
 
 ![Instalacion7][img7]
-
+Luego crearemos la contraseña de Root y las cuentas de Usuario.
 [img7]: https://github.com/Juanjo1357/Proyecto-mysql/blob/main/ProcesoInstalacion/Instalacion07.png "Instalacion7"
 
 ![Instalacion8][img8]
