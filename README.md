@@ -22,10 +22,10 @@ Los tres integrantes del proyecto tenemos acceso al repositorio en línea de Git
 
 
 ### Constraseña root
-Nombre de usuario           Contraseña
-Juanjo1357                  1234
-JoseM                       1234
-Teresa                      1234
+Root Password:  12345
+JoseM:          1234
+Teresa:         1234
+Juanjo1357:     1234
 ### Creación de usuarios
 
 ## Diseño de la base de datos
