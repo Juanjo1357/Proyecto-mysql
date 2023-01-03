@@ -21,7 +21,7 @@ Los tres integrantes del proyecto tenemos acceso al repositorio en línea de Git
 [img2]: https://github.com/Juanjo1357/Proyecto-mysql/blob/main/ProcesoInstalacion/Instalacion02.png "Instalacion2"
 
 
-### Constraseña root
+### Constraseñas root
 - Root Password:  12345
 - JoseM:          1234
 - Teresa:         1234
