@@ -68,15 +68,15 @@ Aquí no tocamos nada ya que todo ejecuta en local y no necesitamos intermediari
 ![Instalacion14][img14]
 
 [img14]: https://github.com/Juanjo1357/Proyecto-mysql/blob/main/ProcesoInstalacion/Instalacion14.png "Instalacion14"
-
+Probamos a conectar con el servidor, si se ha conectado con éxito.
 ![Instalacion15][img15]
 
 [img15]: https://github.com/Juanjo1357/Proyecto-mysql/blob/main/ProcesoInstalacion/Instalacion15.png "Instalacion15"
-
+Volvemos a aplicar la configuración.
 ![Instalacion16][img16]
 
 [img16]: https://github.com/Juanjo1357/Proyecto-mysql/blob/main/ProcesoInstalacion/Instalacion16.png "Instalacion16"
-
+Y por último, ya estaría la instalación completada.
 ![Instalacion17][img17]
 
 [img17]: https://github.com/Juanjo1357/Proyecto-mysql/blob/main/ProcesoInstalacion/Instalacion17.png "Instalacion17"
