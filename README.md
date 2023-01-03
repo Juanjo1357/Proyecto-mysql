@@ -12,6 +12,7 @@ Por último, se ha realizado una conexión entre Git y MySQL con DataGrip, y Dat
 Los tres integrantes del proyecto tenemos acceso al repositorio en línea de GitHub para poder actualizar los datos del proyecto, compartirlos y tener un control de las versiones.
  
 ## Instalación MySQL
+En primer lugar elegimos el tipo de inicio, en nuestro caso elegimos la primera opción "Developer Default"
 ![Instalacion1][img1]
 
 [img1]: https://github.com/Juanjo1357/Proyecto-mysql/blob/main/ProcesoInstalacion/Instalacion01.png "Instalacion1"
@@ -92,11 +93,11 @@ Los tres integrantes del proyecto tenemos acceso al repositorio en línea de Git
 
 
 
-### Constraseña root
-Root Password:  12345
-JoseM:          1234
-Teresa:         1234
-Juanjo1357:     1234
+### Constraseñas root
+- Root Password:  12345
+- JoseM:          1234
+- Teresa:         1234
+- Juanjo1357:     1234
 ### Creación de usuarios
 
 ## Diseño de la base de datos
