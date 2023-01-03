@@ -99,9 +99,9 @@ En segundo lugar, elegimos donde queremos que se nos instale el workbench.
 - Teresa:         1234
 - Juanjo1357:     1234
 
-![Instalacion8][img8]
+![Instalacion8][img18]
 
-[img8]: https://github.com/Juanjo1357/Proyecto-mysql/blob/main/ProcesoInstalacion/Instalacion08.png "Instalacion8"
+[img18]: https://github.com/Juanjo1357/Proyecto-mysql/blob/main/ProcesoInstalacion/Contrasenaroot.png "ContraseñaRoot"
 
 ### Creación de usuarios
 
