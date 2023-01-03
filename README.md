@@ -44,19 +44,19 @@ Luego crearemos la contraseña de Root y las cuentas de Usuario.
 ![Instalacion8][img8]
 
 [img8]: https://github.com/Juanjo1357/Proyecto-mysql/blob/main/ProcesoInstalacion/Instalacion08.png "Instalacion8"
-
+Configuraremos los Servicios de Windows.
 ![Instalacion9][img9]
 
 [img9]: https://github.com/Juanjo1357/Proyecto-mysql/blob/main/ProcesoInstalacion/Instalacion09.png "Instalacion9"
-
+Le concedemos los permisos al archivo.
 ![Instalacion10][img10]
 
 [img10]: https://github.com/Juanjo1357/Proyecto-mysql/blob/main/ProcesoInstalacion/Instalacion10.png "Instalacion10"
-
+Activacion de los logs.
 ![Instalacion11][img11]
 
 [img11]: https://github.com/Juanjo1357/Proyecto-mysql/blob/main/ProcesoInstalacion/Instalacion11.png "Instalacion11"
-
+Ahora entramos en las opciones avanzadas.
 ![Instalacion12][img12]
 
 [img12]: https://github.com/Juanjo1357/Proyecto-mysql/blob/main/ProcesoInstalacion/Instalacion12.png "Instalacion12"
