@@ -12,11 +12,11 @@ Por último, se ha realizado una conexión entre Git y MySQL con DataGrip, y Dat
 Los tres integrantes del proyecto tenemos acceso al repositorio en línea de GitHub para poder actualizar los datos del proyecto, compartirlos y tener un control de las versiones.
  
 ## Instalación MySQL
-En primer lugar elegimos el tipo de inicio, en nuestro caso elegimos la primera opción "Developer Default"
+En primer lugar elegimos el tipo de inicio, en nuestro caso elegimos la primera opción "Developer Default", para instalar todos los productos necesarios para *MySQL*.
 ![Instalacion1][img1]
 
 [img1]: https://github.com/Juanjo1357/Proyecto-mysql/blob/main/ProcesoInstalacion/Instalacion01.png "Instalacion1"
-
+En segundo lugar, elegimos donde queremos que se nos instale el workbench.
 ![Instalacion2][img2]
 
 [img2]: https://github.com/Juanjo1357/Proyecto-mysql/blob/main/ProcesoInstalacion/Instalacion02.png "Instalacion2"
