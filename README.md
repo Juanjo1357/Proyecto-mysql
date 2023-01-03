@@ -99,11 +99,15 @@ Luego crearemos la contraseña de Root y las cuentas de Usuario.
 - Teresa:         1234
 - Juanjo1357:     1234
 
-![Instalacion8][img8]
+![CreacionRoot18][img18]
 
-[img8]: https://github.com/Juanjo1357/Proyecto-mysql/blob/main/ProcesoInstalacion/Instalacion08.png "Instalacion8"
+[img18]: https://github.com/Juanjo1357/Proyecto-mysql/blob/main/ProcesoInstalacion/Contrasenaroot.png "ContraseñaRoot"
 
 ### Creación de usuarios
+
+![CreacionUsuarios19][img19]
+
+[img19]: https://github.com/Juanjo1357/Proyecto-mysql/blob/main/ProcesoInstalacion/Usuarios.png "Creacion Usuarios"
 
 ## Diseño de la base de datos
 En primer lugar, para diseñar la base de datos, se analizó detenidamente [la página web con todos los datos de la competición](https://en.wikipedia.org/wiki/2022_World_Aquatics_Championships).
@@ -114,10 +118,14 @@ Una vez divididos los datos en tablas, se empiezan a diseñar las tablas con Ado
 
 Hechas las tablas y sus restricciones, se finalizan las relaciones, que permiten eliminar tablas y metadatos redundantes.
 
+![DiseñoBD20][img20]
+
+[img20]: https://github.com/Juanjo1357/Proyecto-mysql/blob/main/tablasnatacion.jpg "DiseñoBD20"
+
 ### Tablas
 Las tres tablas creadas más importantes han sido **la de Competidores, la de Clasificación Individual y la de Clasificación Grupal**.
 
-Para crear estas tablas, han sido necesarios muchos datos que se relacionan con otras tablas como la de los Países, Estilos de nado, Categprías, Medallas...
+Para crear estas tablas, han sido necesarios muchos datos que se relacionan con otras tablas como la de los Países, Estilos de nado, Categorías, Medallas...
 
 
 #### Países
@@ -134,6 +142,10 @@ Para crear estas tablas, han sido necesarios muchos datos que se relacionan con 
 
 ## Conexión en DataGrip
 Pantallazo de la conexión de datagrip con la base de datos
+
+![ConexionMySQL21][img21]
+
+[img21]: https://github.com/Juanjo1357/Proyecto-mysql/blob/main/ProcesoInstalacion/ConexionMySQL.png "ConexionMySQL21"
 
 ## Conclusiones
 dificultades y problemas
