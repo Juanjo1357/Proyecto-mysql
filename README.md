@@ -118,10 +118,14 @@ Una vez divididos los datos en tablas, se empiezan a diseñar las tablas con Ado
 
 Hechas las tablas y sus restricciones, se finalizan las relaciones, que permiten eliminar tablas y metadatos redundantes.
 
+![DiseñoBD20][img20]
+
+[img20]: https://github.com/Juanjo1357/Proyecto-mysql/blob/main/tablasnatacion.jpg "DiseñoBD20"
+
 ### Tablas
 Las tres tablas creadas más importantes han sido **la de Competidores, la de Clasificación Individual y la de Clasificación Grupal**.
 
-Para crear estas tablas, han sido necesarios muchos datos que se relacionan con otras tablas como la de los Países, Estilos de nado, Categprías, Medallas...
+Para crear estas tablas, han sido necesarios muchos datos que se relacionan con otras tablas como la de los Países, Estilos de nado, Categorías, Medallas...
 
 
 #### Países
