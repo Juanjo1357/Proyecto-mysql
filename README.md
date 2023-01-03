@@ -147,7 +147,7 @@ En primer lugar, para establecer conexión con la base de datos MySQL nos tendre
 ![ConexionMySQL21][img21]
 
 [img21]: https://github.com/Juanjo1357/Proyecto-mysql/blob/main/ProcesoInstalacion/ConexionMySQL.png "ConexionMySQL"
-Después, nos saldrá una ventanita el cual tendremos que ponerle un **nombre**, cuando ya esté metido el nombre ponemos nuestro **nombre de usuario** y **la contraseña** del cual nos registramos en **MySQL**.
+Después, nos saldrá una ventanita el cual tendremos que ponerle un **Nombre**, cuando ya esté metido el nombre ponemos nuestro **Nombre de Usuario** y **La Contraseña** del cual nos registramos en **MySQL**.
 ![ConexionMySQL22][img22]
 
 [img22]: https://github.com/Juanjo1357/Proyecto-mysql/blob/main/ProcesoInstalacion/ConexionMySQL2.png "ConexionMySQL2"
