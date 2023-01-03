@@ -99,11 +99,15 @@ En segundo lugar, elegimos donde queremos que se nos instale el workbench.
 - Teresa:         1234
 - Juanjo1357:     1234
 
-![Instalacion8][img18]
+![CreacionRoot18][img18]
 
 [img18]: https://github.com/Juanjo1357/Proyecto-mysql/blob/main/ProcesoInstalacion/Contrasenaroot.png "ContraseñaRoot"
 
 ### Creación de usuarios
+
+![CreacionUsuarios19][img19]
+
+[img19]: https://github.com/Juanjo1357/Proyecto-mysql/blob/main/ProcesoInstalacion/Usuarios.png "Creacion Usuarios"
 
 ## Diseño de la base de datos
 En primer lugar, para diseñar la base de datos, se analizó detenidamente [la página web con todos los datos de la competición](https://en.wikipedia.org/wiki/2022_World_Aquatics_Championships).
