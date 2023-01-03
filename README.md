@@ -12,6 +12,9 @@ Por último, se ha realizado una conexión entre Git y MySQL con DataGrip, y Dat
 Los tres integrantes del proyecto tenemos acceso al repositorio en línea de GitHub para poder actualizar los datos del proyecto, compartirlos y tener un control de las versiones.
  
 ## Instalación MySQL
+![Instalacion1][img1]
+
+[img1]: https://raw.githubusercontent.com/Forz1/Proyecto-mysql/main/ProcesoInstalacion/Instlacion01.png "Instalacion1"
 
 ### Constraseña root
 Nombre de usuario           Contraseña
