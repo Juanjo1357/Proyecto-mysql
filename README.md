@@ -60,11 +60,11 @@ Ahora entramos en las opciones avanzadas.
 ![Instalacion12][img12]
 
 [img12]: https://github.com/Juanjo1357/Proyecto-mysql/blob/main/ProcesoInstalacion/Instalacion12.png "Instalacion12"
-
+Momento de aplicar la configuración.
 ![Instalacion13][img13]
 
 [img13]: https://github.com/Juanjo1357/Proyecto-mysql/blob/main/ProcesoInstalacion/Instalacion13.png "Instalacion13"
-
+Aquí no tocamos nada ya que todo ejecuta en local y no necesitamos intermediarios.
 ![Instalacion14][img14]
 
 [img14]: https://github.com/Juanjo1357/Proyecto-mysql/blob/main/ProcesoInstalacion/Instalacion14.png "Instalacion14"
