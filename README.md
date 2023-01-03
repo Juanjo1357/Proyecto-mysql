@@ -145,7 +145,7 @@ Pantallazo de la conexión de datagrip con la base de datos
 
 ![ConexionMySQL21][img21]
 
-[img21]: https://github.com/Juanjo1357/Proyecto-mysql/blob/main/ConexionMySQL "ConexionMySQL21"
+[img21]: https://github.com/Juanjo1357/Proyecto-mysql/blob/main/ProcesoInstalacion/ConexionMySQL.png "ConexionMySQL21"
 
 ## Conclusiones
 dificultades y problemas
