@@ -20,6 +20,77 @@ Los tres integrantes del proyecto tenemos acceso al repositorio en línea de Git
 
 [img2]: https://github.com/Juanjo1357/Proyecto-mysql/blob/main/ProcesoInstalacion/Instalacion02.png "Instalacion2"
 
+![Instalacion3][img3]
+
+[img3]: https://github.com/Juanjo1357/Proyecto-mysql/blob/main/ProcesoInstalacion/Instalacion03.png "Instalacion3"
+
+![Instalacion4][img4]
+
+[img4]: https://github.com/Juanjo1357/Proyecto-mysql/blob/main/ProcesoInstalacion/Instalacion04.png "Instalacion4"
+
+![Instalacion5][img5]
+
+[img5]: https://github.com/Juanjo1357/Proyecto-mysql/blob/main/ProcesoInstalacion/Instalacion05.png "Instalacion5"
+
+![Instalacion6][img6]
+
+[img6]: https://github.com/Juanjo1357/Proyecto-mysql/blob/main/ProcesoInstalacion/Instalacion06.png "Instalacion6"
+
+![Instalacion7][img7]
+
+[img7]: https://github.com/Juanjo1357/Proyecto-mysql/blob/main/ProcesoInstalacion/Instalacion07.png "Instalacion7"
+
+![Instalacion8][img8]
+
+[img8]: https://github.com/Juanjo1357/Proyecto-mysql/blob/main/ProcesoInstalacion/Instalacion08.png "Instalacion8"
+
+![Instalacion9][img9]
+
+[img9]: https://github.com/Juanjo1357/Proyecto-mysql/blob/main/ProcesoInstalacion/Instalacion09.png "Instalacion9"
+
+![Instalacion10][img10]
+
+[img10]: https://github.com/Juanjo1357/Proyecto-mysql/blob/main/ProcesoInstalacion/Instalacion10.png "Instalacion10"
+
+![Instalacion11][img11]
+
+[img11]: https://github.com/Juanjo1357/Proyecto-mysql/blob/main/ProcesoInstalacion/Instalacion11.png "Instalacion11"
+
+![Instalacion12][img12]
+
+[img12]: https://github.com/Juanjo1357/Proyecto-mysql/blob/main/ProcesoInstalacion/Instalacion12.png "Instalacion12"
+
+![Instalacion13][img13]
+
+[img13]: https://github.com/Juanjo1357/Proyecto-mysql/blob/main/ProcesoInstalacion/Instalacion13.png "Instalacion13"
+
+![Instalacion14][img14]
+
+[img14]: https://github.com/Juanjo1357/Proyecto-mysql/blob/main/ProcesoInstalacion/Instalacion14.png "Instalacion14"
+
+![Instalacion15][img15]
+
+[img15]: https://github.com/Juanjo1357/Proyecto-mysql/blob/main/ProcesoInstalacion/Instalacion15.png "Instalacion15"
+
+![Instalacion16][img16]
+
+[img16]: https://github.com/Juanjo1357/Proyecto-mysql/blob/main/ProcesoInstalacion/Instalacion16.png "Instalacion16"
+
+![Instalacion17][img17]
+
+[img17]: https://github.com/Juanjo1357/Proyecto-mysql/blob/main/ProcesoInstalacion/Instalacion17.png "Instalacion17"
+
+
+
+
+
+
+
+
+
+
+
+
 
 ### Constraseña root
 Root Password:  12345
