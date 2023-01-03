@@ -14,7 +14,7 @@ Los tres integrantes del proyecto tenemos acceso al repositorio en línea de Git
 ## Instalación MySQL
 ![Instalacion1][img1]
 
-[img1]: C:\Users\josem\DataGripProjects\Proyecto-mysql\ProcesoInstalacion\Instalacion01.png "Instalacion1"
+[img1]: \ProcesoInstalacion\Instalacion01.png "Instalacion1"
 
 ### Constraseña root
 
