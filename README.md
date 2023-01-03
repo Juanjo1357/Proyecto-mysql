@@ -143,11 +143,11 @@ Para crear estas tablas, han sido necesarios muchos datos que se relacionan con 
 ## Conexión en DataGrip
 Pantallazo de la conexión de datagrip con la base de datos
 
-En primer lugar, para establecer conexion con la base de datos MySQL nos tendremos que dirigir al apartado de Database Explorer que se encuentra arriba a la izquierda y nos saldrá el simbolito de un más, le clickaremos y se nos despliega un menú, el cual le daremos a Data Source y se nos abre otro menú al cual daremos a MySQL.
+En primer lugar, para establecer conexión con la base de datos MySQL nos tendremos que dirigir al apartado de *Database Explorer*, que se encuentra arriba a la izquierda y nos saldrá el simbolito de un *más*, le clickaremos y se nos despliega un menú, el cual le daremos a *Data Source* y se nos abre otro menú al cual daremos a *MySQL*.
 ![ConexionMySQL21][img21]
 
 [img21]: https://github.com/Juanjo1357/Proyecto-mysql/blob/main/ProcesoInstalacion/ConexionMySQL.png "ConexionMySQL"
-Después, nos saldrá una ventanita el cual tendremos que ponerle un nombre, cuando ya esté metido el nombre ponemos nuestro nombre de usuario y la contraseña del cual nos registramos en MySQL.
+Después, nos saldrá una ventanita el cual tendremos que ponerle un *nombre*, cuando ya esté metido el nombre ponemos nuestro *nombre de usuario* y *la contraseña* del cual nos registramos en *MySQL*.
 ![ConexionMySQL22][img22]
 
 [img22]: https://github.com/Juanjo1357/Proyecto-mysql/blob/main/ProcesoInstalacion/ConexionMySQL2.png "ConexionMySQL2"
