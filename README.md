@@ -1,6 +1,6 @@
  
 # Proyecto-MySQL
-### Indice
+## Indice
 * [Introducción](#introducción)
 * [Instalación MySQL](#instalación)
 * [Contraseñas root](#contraseñas)
