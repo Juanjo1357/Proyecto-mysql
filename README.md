@@ -2,12 +2,12 @@
 # Proyecto-MySQL
 ### Indice
 * [Introducción](#introducción)
-* [Instalación MySQL](#InstalaciónMySQL).
-* [Contraseñas root](#Contraseñasroot).
-* [Creación de usuarios](#Creacióndeusuarios).
-* [Diseño de la base de datos](#Diseñodelabasededatos).
+* [Instalación MySQL](#instalación).
+* [Contraseñas root](#Contraseñas).
+* [Creación de usuarios](#usuarios).
+* [Diseño de la base de datos](#diseño).
 * [Tablas](#tablas)
-* [Conexión en DataGrip](#ConexiónenDataGrip).
+* [Conexión en DataGrip](#conexión).
 * [Conclusiones](#conclusiones)
 ## Introducción
 En este proyecto se creará una base de datos relacional sobre el **Mundial de Natación de Budapest de 2022**.
@@ -20,7 +20,7 @@ Por último, se ha realizado una conexión entre Git y MySQL con DataGrip, y Dat
 
 Los tres integrantes del proyecto tenemos acceso al repositorio en línea de GitHub para poder actualizar los datos del proyecto, compartirlos y tener un control de las versiones.
  
-## Instalación MySQL
+## Instalación
 En primer lugar elegimos el tipo de inicio, en nuestro caso elegimos la primera opción "Developer Default", para instalar todos los productos necesarios para *MySQL*.
 ![Instalacion1][img1]
 
@@ -102,7 +102,7 @@ Y por último, ya estaría la instalación completada.
 
 
 
-### Constraseñas root
+### Constraseñas
 - Root Password:  12345
 - JoseM:          1234
 - Teresa:         1234
@@ -112,13 +112,13 @@ Y por último, ya estaría la instalación completada.
 
 [img18]: https://github.com/Juanjo1357/Proyecto-mysql/blob/main/ProcesoInstalacion/Contrasenaroot.png "ContraseñaRoot"
 
-### Creación de usuarios
+### Usuarios
 
 ![CreacionUsuarios19][img19]
 
 [img19]: https://github.com/Juanjo1357/Proyecto-mysql/blob/main/ProcesoInstalacion/Usuarios.png "Creacion Usuarios"
 
-## Diseño de la base de datos
+## Diseño
 En primer lugar, para diseñar la base de datos, se analizó detenidamente [la página web con todos los datos de la competición](https://en.wikipedia.org/wiki/2022_World_Aquatics_Championships).
 
 A partir de eso, se empezaron a escoger los datos más relevantes, y a base de esquemas hechos a mano se fueron creando tablas sin tener en cuenta restricciones ni relaciones.
@@ -149,7 +149,7 @@ Para crear estas tablas, han sido necesarios muchos datos que se relacionan con 
 
 ### Relaciones entre tablas
 
-## Conexión en DataGrip
+## Conexión
 Pantallazo de la conexión de datagrip con la base de datos
 
 En primer lugar, para establecer conexión con la base de datos MySQL nos tendremos que dirigir al apartado de **Database Explorer**, que se encuentra arriba a la izquierda y nos saldrá el simbolito de un **más**, le clickaremos y se nos despliega un menú, el cual le daremos a **Data Source** y se nos abre otro menú al cual daremos a **MySQL**.
