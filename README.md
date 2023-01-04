@@ -3,7 +3,7 @@
 ### Indice
 * [Introducción](#introducción)
 * [Instalación MySQL](#instalación).
-* [Contraseñas root](#Contraseñas).
+* [Contraseñas root](#contraseñas).
 * [Creación de usuarios](#usuarios).
 * [Diseño de la base de datos](#diseño).
 * [Tablas](#tablas)
