@@ -2,7 +2,7 @@
 # Proyecto-MySQL
 ### Indice
 * [Introducción](#introducción).
-* [Instalación MySQL](#instalaciónMySQL).
+* [InstalaciónMySQL](#instalaciónMySQL).
 * [Contraseñas root](#contraseñasroot).
 * [Creación de usuarios](#creacióndeusuarios).
 * [Diseño de la base de datos](#diseñodelabasededatos).
