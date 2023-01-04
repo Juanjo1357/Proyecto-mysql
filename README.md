@@ -2,12 +2,12 @@
 # Proyecto-MySQL
 ### Indice
 * [Introducción](#introducción)
-* [Instalación MySQL](#instalación).
-* [Contraseñas root](#contraseñas).
-* [Creación de usuarios](#usuarios).
-* [Diseño de la base de datos](#diseño).
+* [Instalación MySQL](#instalación)
+* [Contraseñas root](#contraseñas)
+* [Creación de usuarios](#usuarios)
+* [Diseño de la base de datos](#diseño)
 * [Tablas](#tablas)
-* [Conexión en DataGrip](#conexión).
+* [Conexión en DataGrip](#conexión)
 * [Conclusiones](#conclusiones)
 ## Introducción
 En este proyecto se creará una base de datos relacional sobre el **Mundial de Natación de Budapest de 2022**.
@@ -102,7 +102,7 @@ Y por último, ya estaría la instalación completada.
 
 
 
-### Constraseñas
+### Contraseñas
 - Root Password:  12345
 - JoseM:          1234
 - Teresa:         1234
