@@ -299,7 +299,7 @@ VALUES (7,18),(7,23),(7,59),(7,43),(7,60),(7,44),
        (9,20),(9,62),(9,55),(9,7),(9,63),(9,64);
 
 Select * FROM Equipos;
-SELECT * FROM Competidores;
+SELECT * FROM Competidores where id_categoria=2;
 SELECT * FROM Estilos_nado;
 SELECT * FROM Medallas;
 
@@ -318,5 +318,6 @@ VALUES (4,2,1,('47.58')), (3,2,2,('47.64')), (5,2,3,('47.71'));
 INSERT INTO Clasificacion_individual (id_competidor, id_estilo, id_medalla, tiempo)
 VALUES (4,3,1,('00:01:43.21')), (6,3,2,('00:01:44.47')), (7,3,3,('00:01:44.98'));
 
-
+INSERT INTO Clasificacion_individual (id_competidor, id_estilo, id_medalla, tiempo)
+VALUES (61,1,1,('23.98')), (65,1,2,('24.18')), (66,1,3,('24.38')), (67,1,3,('24.38'));
 
