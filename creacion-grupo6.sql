@@ -50,9 +50,6 @@ CONSTRAINT equipos_pk PRIMARY KEY (id_equipo,id_competidor),
 CONSTRAINT equipos_fk1 FOREIGN KEY (id_competidor) REFERENCES Competidores (id_competidor)
 );
 
-DROP TABLE Equipos;
-
-
 CREATE TABLE Clasificacion_individual(
 id_competidor       INT(3)          NOT NULL,
 id_estilo           INT(2),
@@ -76,9 +73,6 @@ CONSTRAINT clasificacion_grupal_fk3 FOREIGN KEY (id_medalla) REFERENCES Medallas
 CONSTRAINT clasificacion_grupal_uk1 UNIQUE (id_equipo)
 );
 
-SELECT * FROM Clasificacion_grupal;
-
-
 CREATE TABLE Records (
 fecha               DATE,
 id_estilo           INT(2),
@@ -90,6 +84,9 @@ CONSTRAINT records_fk1 FOREIGN KEY (id_estilo) REFERENCES Estilos_nado (id_estil
 CONSTRAINT records_fk2 FOREIGN KEY (id_competidor) REFERENCES Competidores (id_competidor),
 CONSTRAINT records_fk3 FOREIGN KEY (id_pais) REFERENCES Paises (id_pais)
 );
+
+ALTER TABLE Records MODIFY
+tiempo  TIME(6);
 
 SHOW FULL TABLES FROM MundialNatacion2022;
 
@@ -331,4 +328,16 @@ INSERT INTO Clasificacion_grupal (id_equipo, id_estilo, id_medalla, tiempo_total
 VALUES (1,18,1,'00:03:09.34'), (2,18,2,'00:03:10.80'), (3,18,3,'00:03:10.95');
 
 SELECT * FROM Clasificacion_grupal;
+SELECT * FROM Records;
 
+SELECT * FROM Competidores WHERE nombre='Bobby';
+SELECT * FROM Estilos_nado WHERE nombre='medley relay';
+SELECT * FROM Paises;
+
+INSERT INTO Records (fecha, id_estilo, tiempo, id_competidor, id_pais)
+VALUES (('2022-06-20'),8,'00:07:39.36',11,19);
+
+SELECT * FROM Records;
+
+INSERT INTO Records (id_estilo, tiempo, id_pais)
+VALUES (20,'00:03:27.51',9);
