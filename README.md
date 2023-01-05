@@ -92,7 +92,8 @@ Y por último, ya estaría la instalación completada.
 
 
 ### Contraseñas
-- Root Password:  12345
+En el momento de crear la contraseña para el usuario Root, también se han creado los perfiles de los integrantes del grupo y sus contraseñas:
+- Root:           12345
 - JoseM:          1234
 - Teresa:         1234
 - Juanjo1357:     1234
@@ -102,6 +103,7 @@ Y por último, ya estaría la instalación completada.
 [img18]: https://github.com/Juanjo1357/Proyecto-mysql/blob/main/ProcesoInstalacion/Contrasenaroot.png "ContraseñaRoot"
 
 ### Usuarios
+Los usuarios creados en el proceso de instalación coinciden con los nombres de los integrantes del grupo. En este paso se pueden añadir más, y además aparece el rol que tiene cada uno.
 
 ![CreacionUsuarios19][img19]
 
@@ -118,7 +120,7 @@ Hechas las tablas y sus restricciones, se finalizan las relaciones, que permiten
 
 ![DiseñoBD20][img20]
 
-[img20]: https://github.com/Juanjo1357/Proyecto-mysql/blob/main/tablasnatacion.jpg "DiseñoBD20"
+[img20]: https://github.com/Juanjo1357/Proyecto-mysql/blob/main/tablasgbd.jpg "DiseñoBD20"
 
 ### Tablas
 Las tres tablas creadas más importantes han sido **la de Competidores, la de Clasificación Individual y la de Clasificación Grupal**.
@@ -127,6 +129,8 @@ Para crear estas tablas, han sido necesarios muchos datos que se relacionan con 
 
 
 #### Países
+En esta tabla se incluyen todos los países ganadores de una medalla como mínimo.
+
 #### Categorías
 #### Medallas
 #### Estilos de nado
