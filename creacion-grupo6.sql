@@ -68,15 +68,16 @@ CREATE TABLE Clasificacion_grupal(
 id_equipo           INT(3)          NOT NULL,
 id_estilo           INT(2),
 id_medalla          INT(1),
-tiempo_total        TIMESTAMP       NOT NULL,
-CONSTRAINT clasificacion_grupal_pk PRIMARY KEY (id_estilo,id_medalla),
+tiempo_total        TIME(6)       NOT NULL,
+CONSTRAINT clasificacion_grupal_pk PRIMARY KEY (id_estilo,id_medalla,id_equipo),
 CONSTRAINT clasificacion_grupal_fk1 FOREIGN KEY (id_equipo) REFERENCES Equipos (id_equipo),
 CONSTRAINT clasificacion_grupal_fk2 FOREIGN KEY (id_estilo) REFERENCES Estilos_nado (id_estilo),
 CONSTRAINT clasificacion_grupal_fk3 FOREIGN KEY (id_medalla) REFERENCES Medallas (id_medalla),
 CONSTRAINT clasificacion_grupal_uk1 UNIQUE (id_equipo)
 );
 
-DROP TABLE Clasificacion_grupal;
+SELECT * FROM Clasificacion_grupal;
+
 
 CREATE TABLE Records (
 fecha               DATE,
@@ -320,4 +321,14 @@ VALUES (4,3,1,('00:01:43.21')), (6,3,2,('00:01:44.47')), (7,3,3,('00:01:44.98'))
 
 INSERT INTO Clasificacion_individual (id_competidor, id_estilo, id_medalla, tiempo)
 VALUES (61,1,1,('23.98')), (65,1,2,('24.18')), (66,1,3,('24.38')), (67,1,3,('24.38'));
+
+SELECT * FROM Equipos WHERE id_competidor=42;
+SELECT * FROM Competidores WHERE nombre='Kyle';
+SELECT * FROM Estilos_nado;
+SELECT * FROM Medallas;
+
+INSERT INTO Clasificacion_grupal (id_equipo, id_estilo, id_medalla, tiempo_total)
+VALUES (1,18,1,'00:03:09.34'), (2,18,2,'00:03:10.80'), (3,18,3,'00:03:10.95');
+
+SELECT * FROM Clasificacion_grupal;
 
