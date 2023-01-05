@@ -2,7 +2,7 @@
 # Proyecto-MySQL
 ### Indice
 * [Introducción](#introducción)
-* [Instalación MySQL](#instalación)
+* [Instalación MySQL](#instalación MySQL)
 * [Contraseñas root](#contraseñas)
 * [Creación de usuarios](#usuarios)
 * [Diseño de la base de datos](#diseño)
@@ -20,16 +20,16 @@ Por último, se ha realizado una conexión entre Git y MySQL con DataGrip, y Dat
 
 Los tres integrantes del proyecto tenemos acceso al repositorio en línea de GitHub para poder actualizar los datos del proyecto, compartirlos y tener un control de las versiones.
  
-## Instalación
-En primer lugar elegimos el tipo de inicio, en nuestro caso elegimos la primera opción "Developer Default", para instalar todos los productos necesarios para *MySQL*.
+## Instalación MySQL
+En primer lugar se elegirá el tipo de inicio, en nuestro caso será la primera opción "Developer Default", para instalar todos los productos necesarios para *MySQL*.
 ![Instalacion1][img1]
 
 [img1]: https://github.com/Juanjo1357/Proyecto-mysql/blob/main/ProcesoInstalacion/Instalacion01.png "Instalacion1"
-En segundo lugar, elegimos donde queremos que se nos instale el workbench.
+En segundo lugar, se elegirá dónde instalar el workbench, que es la herramienta más visual de MySQL.
 ![Instalacion2][img2]
 
 [img2]: https://github.com/Juanjo1357/Proyecto-mysql/blob/main/ProcesoInstalacion/Instalacion02.png "Instalacion2"
-Luego nos saldrá para elegir entre estos requerimientos que nos sugiere MySQL Installer no nos son compatibles con DataGrip ya que uno es para Visual Studio y el otro es para Python.
+La instalación da un aviso de que dos productos tienen fallos en los requisitos que no se pueden arreglar automáticamente, sino que se tiene que hacer manual. En este caso no es importante ya que son complementos para Phyton y Visual Studio Code, que no se van a usar para este proyecto.
 ![Instalacion3][img3]
 
 [img3]: https://github.com/Juanjo1357/Proyecto-mysql/blob/main/ProcesoInstalacion/Instalacion03.png "Instalacion3"
@@ -45,11 +45,11 @@ Luego configuramos los puertos y la conectividad.
 ![Instalacion6][img6]
 
 [img6]: https://github.com/Juanjo1357/Proyecto-mysql/blob/main/ProcesoInstalacion/Instalacion06.png "Instalacion6"
-Aquí veremos los metodos de autentificación, el cual marcamos la de usar una contraseña fuerte y encriptada.
+Aquí se podrá escoger entre dos métodos de autentificación, marcamos la que usa una contraseña fuerte y encriptada.
 ![Instalacion7][img7]
 
 [img7]: https://github.com/Juanjo1357/Proyecto-mysql/blob/main/ProcesoInstalacion/Instalacion07.png "Instalacion7"
-Luego crearemos la contraseña de Root y las cuentas de Usuario.
+Luego crearemos la contraseña de Root y las cuentas de Usuario de los integrantes del grupo.
 ![Instalacion8][img8]
 
 [img8]: https://github.com/Juanjo1357/Proyecto-mysql/blob/main/ProcesoInstalacion/Instalacion08.png "Instalacion8"
@@ -73,11 +73,11 @@ Momento de aplicar la configuración.
 ![Instalacion13][img13]
 
 [img13]: https://github.com/Juanjo1357/Proyecto-mysql/blob/main/ProcesoInstalacion/Instalacion13.png "Instalacion13"
-Aquí no tocamos nada ya que todo ejecuta en local y no necesitamos intermediarios.
+En este paso no hará falta modificar nada ya que todo se ejecuta en local y no necesitamos intermediarios.
 ![Instalacion14][img14]
 
 [img14]: https://github.com/Juanjo1357/Proyecto-mysql/blob/main/ProcesoInstalacion/Instalacion14.png "Instalacion14"
-Probamos a conectar con el servidor, si se ha conectado con éxito.
+Probamos a conectar con el servidor desde el usuario root para comprobar que la conexión es correcta y aparece el mensaje de éxito..
 ![Instalacion15][img15]
 
 [img15]: https://github.com/Juanjo1357/Proyecto-mysql/blob/main/ProcesoInstalacion/Instalacion15.png "Instalacion15"
@@ -89,17 +89,6 @@ Y por último, ya estaría la instalación completada.
 ![Instalacion17][img17]
 
 [img17]: https://github.com/Juanjo1357/Proyecto-mysql/blob/main/ProcesoInstalacion/Instalacion17.png "Instalacion17"
-
-
-
-
-
-
-
-
-
-
-
 
 
 ### Contraseñas
