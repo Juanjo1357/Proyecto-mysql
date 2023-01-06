@@ -135,7 +135,12 @@ La tabla contiene un identificador del país y el nombre del mismo.
 
 [img200]: https://github.com/Juanjo1357/Proyecto-mysql/blob/main/Tablas%20individuales/Paises.png "TablaPaises"
 #### Categorías
+En esta tabla se dividirán las participaciones masculinas y femeninas, se tendrá en cuenta para identificar a los competidores y poder hacer consultas en base al género por el que compiten.
+![TablaCategorias][img201]
+
+[img201]: https://github.com/Juanjo1357/Proyecto-mysql/blob/main/Tablas%20individuales/Paises.png "TablaCategorias"
 #### Medallas
+
 #### Estilos de nado
 #### Competidores
 #### Equipos
