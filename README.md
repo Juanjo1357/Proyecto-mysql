@@ -156,9 +156,9 @@ Después, nos saldrá una ventanita el cual tendremos que ponerle un **Nombre**,
 
 ## Conclusiones
 - dificultades y problemas
-***Juan José***:
-***Jose María***:
-***Teresa***:
+- ***Juan José***:
+- ***Jose María***:
+- ***Teresa***:
 - aspectos positivos
 - reflexiones finales
 
