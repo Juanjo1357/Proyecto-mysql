@@ -140,7 +140,10 @@ En esta tabla se dividirán las participaciones masculinas y femeninas, se tendr
 
 [img201]: https://github.com/Juanjo1357/Proyecto-mysql/blob/main/Tablas%20individuales/Paises.png "TablaCategorias"
 #### Medallas
+En esta tabla se asociará un id_medalla a cada una de las tres posibles (oro, bronce y plata), también se trata de un dato para poder hacer consultas, como la tabla de medallas totales por país.
+![TablaMedallas][img202]
 
+[img202]: https://github.com/Juanjo1357/Proyecto-mysql/blob/main/Tablas%20individuales/Medallas.png "TablaMedallas"
 #### Estilos de nado
 #### Competidores
 #### Equipos
