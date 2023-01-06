@@ -200,16 +200,21 @@ Como hemos explicado en los anteriores puntos, las tres principales tablas son l
 [img20]: https://github.com/Juanjo1357/Proyecto-mysql/blob/main/tablasgbd.jpg "DiseñoBD20"
 
 ## Conexión
-Pantallazo de la conexión de datagrip con la base de datos
+
 
 En primer lugar, para establecer conexión con la base de datos MySQL nos tendremos que dirigir al apartado de **Database Explorer**, que se encuentra arriba a la izquierda y nos saldrá el simbolito de un **más**, le clickaremos y se nos despliega un menú, el cual le daremos a **Data Source** y se nos abre otro menú al cual daremos a **MySQL**.
 ![ConexionMySQL21][img21]
 
 [img21]: https://github.com/Juanjo1357/Proyecto-mysql/blob/main/ProcesoInstalacion/ConexionMySQL.png "ConexionMySQL"
-Después, nos saldrá una ventanita el cual tendremos que ponerle un **Nombre**, cuando ya esté metido el nombre ponemos nuestro **Nombre de Usuario** y **La Contraseña** del cual nos registramos en **MySQL**.
+Después, nos saldrá una ventanita el cual tendremos que ponerle un **Nombre**, cuando ya esté metido el nombre ponemos nuestro **Nombre de Usuario** y **La Contraseña** del cual nos registramos en **MySQL**. 
+
+
 ![ConexionMySQL22][img22]
 
 [img22]: https://github.com/Juanjo1357/Proyecto-mysql/blob/main/ProcesoInstalacion/ConexionMySQL2.png "ConexionMySQL2"
+
+Antes de iniciar sesión con el usuario personal, el root debe haber concedido los permisos a ese usuario para gestionar la Base de Datos en concreto. 
+Esto se hace a través del comando GRANT. 
 
 ## Conclusiones
 Ya que la mayor parte del proyecto la hemos trabajado en remoto, hemos decidido dividir las conclusiones en puntos en los que cada uno aportará sus ideas.
