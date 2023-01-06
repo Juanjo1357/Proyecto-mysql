@@ -348,7 +348,7 @@ VALUES (5,'00:07:39.36',11,19);
        (20,'00:03:27.51',9);
 
 INSERT INTO Records (id_estilo, tiempo, id_competidor,id_pais);
-VALUES (19, '00:07:41.45',,19);
+VALUES (19,'00:07:41.45',19);
 
 select * from records
 
