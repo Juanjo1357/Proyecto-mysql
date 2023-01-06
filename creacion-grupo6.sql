@@ -50,15 +50,12 @@ CONSTRAINT equipos_pk PRIMARY KEY (id_equipo,id_competidor),
 CONSTRAINT equipos_fk1 FOREIGN KEY (id_competidor) REFERENCES Competidores (id_competidor)
 );
 
-DROP TABLE Equipos;
-
-
 CREATE TABLE Clasificacion_individual(
 id_competidor       INT(3)          NOT NULL,
 id_estilo           INT(2),
 id_medalla          INT(1),
-tiempo              TIMESTAMP       NOT NULL,
-CONSTRAINT clasificacion_individual_pk PRIMARY KEY (id_estilo,id_medalla),
+tiempo              TIME(6)       NOT NULL,
+CONSTRAINT clasificacion_individual_pk PRIMARY KEY (id_estilo,id_medalla,id_competidor),
 CONSTRAINT clasificacion_individual_fk1 FOREIGN KEY (id_competidor) REFERENCES Competidores (id_competidor),
 CONSTRAINT clasificacion_individual_fk2 FOREIGN KEY (id_estilo) REFERENCES Estilos_nado (id_estilo),
 CONSTRAINT clasificacion_individual_fk3 FOREIGN KEY (id_medalla) REFERENCES Medallas (id_medalla)
@@ -68,15 +65,13 @@ CREATE TABLE Clasificacion_grupal(
 id_equipo           INT(3)          NOT NULL,
 id_estilo           INT(2),
 id_medalla          INT(1),
-tiempo_total        TIMESTAMP       NOT NULL,
-CONSTRAINT clasificacion_grupal_pk PRIMARY KEY (id_estilo,id_medalla),
+tiempo_total        TIME(6)       NOT NULL,
+CONSTRAINT clasificacion_grupal_pk PRIMARY KEY (id_estilo,id_medalla,id_equipo),
 CONSTRAINT clasificacion_grupal_fk1 FOREIGN KEY (id_equipo) REFERENCES Equipos (id_equipo),
 CONSTRAINT clasificacion_grupal_fk2 FOREIGN KEY (id_estilo) REFERENCES Estilos_nado (id_estilo),
 CONSTRAINT clasificacion_grupal_fk3 FOREIGN KEY (id_medalla) REFERENCES Medallas (id_medalla),
 CONSTRAINT clasificacion_grupal_uk1 UNIQUE (id_equipo)
 );
-
-DROP TABLE Clasificacion_grupal;
 
 CREATE TABLE Records (
 fecha               DATE,
@@ -89,6 +84,9 @@ CONSTRAINT records_fk1 FOREIGN KEY (id_estilo) REFERENCES Estilos_nado (id_estil
 CONSTRAINT records_fk2 FOREIGN KEY (id_competidor) REFERENCES Competidores (id_competidor),
 CONSTRAINT records_fk3 FOREIGN KEY (id_pais) REFERENCES Paises (id_pais)
 );
+
+ALTER TABLE Records MODIFY
+tiempo  TIME(6);
 
 SHOW FULL TABLES FROM MundialNatacion2022;
 
@@ -299,4 +297,47 @@ VALUES (7,18),(7,23),(7,59),(7,43),(7,60),(7,44),
        (9,20),(9,62),(9,55),(9,7),(9,63),(9,64);
 
 Select * FROM Equipos;
+SELECT * FROM Competidores where id_categoria=2;
+SELECT * FROM Estilos_nado;
+SELECT * FROM Medallas;
 
+SELECT * FROM Clasificacion_individual;
+DELETE FROM Clasificacion_individual where id_estilo=3;
+
+INSERT INTO Clasificacion_individual (id_competidor, id_estilo, id_medalla, tiempo)
+VALUES (1,1,1,('21.32'));
+
+INSERT INTO Clasificacion_individual (id_competidor, id_estilo, id_medalla, tiempo)
+VALUES (2,1,2,('21.41')), (3,1,3,('21.57'));
+
+INSERT INTO Clasificacion_individual (id_competidor, id_estilo, id_medalla, tiempo)
+VALUES (4,2,1,('47.58')), (3,2,2,('47.64')), (5,2,3,('47.71'));
+
+INSERT INTO Clasificacion_individual (id_competidor, id_estilo, id_medalla, tiempo)
+VALUES (4,3,1,('00:01:43.21')), (6,3,2,('00:01:44.47')), (7,3,3,('00:01:44.98'));
+
+INSERT INTO Clasificacion_individual (id_competidor, id_estilo, id_medalla, tiempo)
+VALUES (61,1,1,('23.98')), (65,1,2,('24.18')), (66,1,3,('24.38')), (67,1,3,('24.38'));
+
+SELECT * FROM Equipos WHERE id_competidor=42;
+SELECT * FROM Competidores WHERE nombre='Kyle';
+SELECT * FROM Estilos_nado;
+SELECT * FROM Medallas;
+
+INSERT INTO Clasificacion_grupal (id_equipo, id_estilo, id_medalla, tiempo_total)
+VALUES (1,18,1,'00:03:09.34'), (2,18,2,'00:03:10.80'), (3,18,3,'00:03:10.95');
+
+SELECT * FROM Clasificacion_grupal;
+SELECT * FROM Records;
+
+SELECT * FROM Competidores WHERE nombre='Bobby';
+SELECT * FROM Estilos_nado WHERE nombre='medley relay';
+SELECT * FROM Paises;
+
+INSERT INTO Records (fecha, id_estilo, tiempo, id_competidor, id_pais)
+VALUES (('2022-06-20'),8,'00:07:39.36',11,19);
+
+SELECT * FROM Records;
+
+INSERT INTO Records (id_estilo, tiempo, id_pais)
+VALUES (20,'00:03:27.51',9);
