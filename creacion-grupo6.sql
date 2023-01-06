@@ -330,11 +330,14 @@ VALUES (1,18,1,'00:03:09.34'), (2,18,2,'00:03:10.80'), (3,18,3,'00:03:10.95');
 SELECT * FROM Clasificacion_grupal;
 SELECT * FROM Records;
 
-SELECT * FROM Competidores WHERE nombre='Bobby';
-SELECT * FROM Estilos_nado WHERE nombre='medley relay';
+SELECT * FROM Competidores WHERE nombre='Thomas';
+SELECT * FROM Estilos_nado WHERE nombre='backstroke';
 SELECT * FROM Paises;
 
 SELECT * FROM Records;
+
+UPDATE Records SET id_pais=9 WHERE id_competidor=18;
+
 
 INSERT INTO Records (fecha, id_estilo, tiempo, id_competidor, id_pais)
 VALUES (('2022-06-20'),8, '00:00:51.60',18,9),
@@ -351,4 +354,19 @@ INSERT INTO Records (fecha, id_estilo, tiempo, id_competidor, id_pais)
 VALUES (('2022-06-21'),15, '00:01:50.34',30,8);
 INSERT INTO Records (id_estilo, tiempo, id_pais)
 VALUES (20,'00:03:27.51',9);
+
+VALUES (('2022-06-20'),8, '00:00:51.60',18,9);
+       (('2022-06-21'),15, '00:01:50.34',30,8);
+INSERT INTO Records (id_estilo, tiempo, id_competidor,id_pais);
+VALUES (5,'00:07:39.36',11,19);
+       (6,'00:14:36.70',11,19);
+       (4,'00:03:43.31',10,2);
+       (6,'00:14:32.80',14,9);
+       (4,'00:04:04.28',32,5);
+       (20,'00:03:27.51',9);
+
+INSERT INTO Records (id_estilo, tiempo, id_competidor,id_pais);
+VALUES (19,'00:07:41.45',19);
+
+select * from records
 
