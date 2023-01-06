@@ -155,12 +155,12 @@ Después, nos saldrá una ventanita el cual tendremos que ponerle un **Nombre**,
 [img22]: https://github.com/Juanjo1357/Proyecto-mysql/blob/main/ProcesoInstalacion/ConexionMySQL2.png "ConexionMySQL2"
 
 ## Conclusiones
-- dificultades y problemas
+# dificultades y problemas
 - ***Juan José***:
 - ***Jose María***:
 - ***Teresa***:
-- aspectos positivos
-- reflexiones finales
+# aspectos positivos
+# reflexiones finales
 
 
 
