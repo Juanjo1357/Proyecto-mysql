@@ -1,6 +1,6 @@
 CREATE DATABASE MundialNatacion2022;
 
-USE MundialNatacion2023;
+USE MundialNatacion2022;
 
 CREATE TABLE Paises(
 id_pais         INT(2),
