@@ -160,7 +160,13 @@ Después, nos saldrá una ventanita el cual tendremos que ponerle un **Nombre**,
 - ***Jose María***:
 - ***Teresa***:
 ### Aspectos positivos
+- ***Juan José***:
+- ***Jose María***:
+- ***Teresa***:
 ### Reflexiones finales
+- ***Juan José***:
+- ***Jose María***:
+- ***Teresa***:
 
 
 
