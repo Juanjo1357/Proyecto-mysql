@@ -217,18 +217,18 @@ Ya que la mayor parte del proyecto la hemos trabajado en remoto, hemos decidido 
 Tendremos en cuenta las dificultades, las partes más positivas y una reflexión final.
 ### Dificultades y problemas
 - ***Juan José***: Tuve algún problema a la hora de conectarme remotamente, ya qué me daba un error un poco extraño.
-- ***Jose María***:
+- ***Jose María***: A la hora de hacer los commits y el push tenia un problema que creaba un segundo commit con el nombre de Merge remote-tracking branch 'origin/main' y no sabia por que ocurria 
 - ***Teresa***: 
   - Al principio del proyecto tuve muchos problemas para **conectar DataGrip con GitHub**, por lo que los días que trabajamos en clase nos dedicamos principalmente a crear las tablas. 
   - Otra de las dificultades ha sido aplicar el **lenguaje MySQL**, ya que tenía muy por la mano el de Oracle y hay algunas cosas que cambian (sobretodo el tema de NUMBER=INT, o la sintaxis de las CONSTRAINT y el NOT NULL).
   - Al crear las tablas todo parecía perfecto, pero en el momento de **insertar datos** me di cuenta de algunos fallos y tuve que corregirlos, y al haber referencias fue complicado.
 ### Aspectos positivos
 - ***Juan José***: Aprendimos a trabajar en grupo y de forma remota.
-- ***Jose María***:
+- ***Jose María***: Poder a empezar a trabajar en un proyecto en comun con otros dos compañeros y poder hacer un trabajo remotamente, a la vez que poder retroceder a una version anterior del trabajo es muy util por posibles errores.
 - ***Teresa***: Me ha parecido un proyecto muy interesante, trabajar en grupo ha sido todo un reto, y hacerlo de forma remota lo ha sido el doble. He aprendido a usar el lenguaje de MySQL y he crado una base de datos desde cero, corrigiendo y probando, que me parece muy interesante.
 ### Reflexiones finales
 - ***Juan José***: Me parece una manera muy eficaz a la hora de hacer esta práctica, ya que aprendimos a base de buscar la información. Tambien recalcar el trabajar en grupo y en remoto ya que es muy importante el saberte conectar remotamente, tambien los comandos utilizados como el Git pull, el Git commit, etc.
-- ***Jose María***:
+- ***Jose María***: Es una buena manera de hacer trabajos con diferentes puntos de vistas es interesante porque al poder comparar diferentes ideas con los compañeros ves los errores y aciertos que probablemente solo no verias.
 - ***Teresa***: Al empezar el proyecto pensé que no nos daría tiempo a terminarlo, ya que se veía algo muy extenso y complicado, y teniendo en cuenta que trabajabamos en remoto era complicado contactar a la vez todos. Pero el resultado del trabajo ha sido bastante satisfactorio.
 
 
