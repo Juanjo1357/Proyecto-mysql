@@ -334,10 +334,15 @@ SELECT * FROM Competidores WHERE nombre='Bobby';
 SELECT * FROM Estilos_nado WHERE nombre='medley relay';
 SELECT * FROM Paises;
 
-INSERT INTO Records (fecha, id_estilo, tiempo, id_competidor, id_pais)
-VALUES (('2022-06-20'),8,'00:07:39.36',11,19);
-
 SELECT * FROM Records;
 
-INSERT INTO Records (id_estilo, tiempo, id_pais)
-VALUES (20,'00:03:27.51',9);
+INSERT INTO Records (fecha, id_estilo, tiempo, id_competidor, id_pais)
+VALUES (('2022-06-20'),8, '00:00:51.60',18,9);
+       (('2022-06-21'),15, '00:01:50.34',30,8);
+INSERT INTO Records (id_estilo, tiempo, id_competidor,id_pais);
+VALUES (5,'00:07:39.36',11,19);
+       (6,'00:14:36.70',11,19);
+       (4,'00:03:43.31',10,2);
+       (6,'00:14:32.80',14,9);
+       (4,'00:04:04.28',32,5);
+       (20,'00:03:27.51',9);
