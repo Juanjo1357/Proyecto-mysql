@@ -220,6 +220,7 @@ Tendremos en cuenta las dificultades, las partes más positivas y una reflexión
 - ***Jose María***:
 - ***Teresa***: 
   - Al principio del proyecto tuve muchos problemas para **conectar DataGrip con GitHub**, por lo que los días que trabajamos en clase nos dedicamos principalmente a crear las tablas. 
+  - Al trabajar desde MacOS, la instalación de MySQL y Git ha sido **a través de comandos**, por lo que no he tenido una interfaz gráfica a través de la que crear usuarios y gestionar permisos.
   - Otra de las dificultades ha sido aplicar el **lenguaje MySQL**, ya que tenía muy por la mano el de Oracle y hay algunas cosas que cambian (sobretodo el tema de NUMBER=INT, o la sintaxis de las CONSTRAINT y el NOT NULL).
   - Al crear las tablas todo parecía perfecto, pero en el momento de **insertar datos** me di cuenta de algunos fallos y tuve que corregirlos, y al haber referencias fue complicado.
 ### Aspectos positivos
