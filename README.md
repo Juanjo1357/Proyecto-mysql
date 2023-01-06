@@ -234,7 +234,7 @@ Tendremos en cuenta las dificultades, las partes más positivas y una reflexión
 - ***Teresa***: Me ha parecido un proyecto muy interesante, trabajar en grupo ha sido todo un reto, y hacerlo de forma remota lo ha sido el doble. He aprendido a usar el lenguaje de MySQL y he crado una base de datos desde cero, corrigiendo y probando, que me parece muy interesante.
 ### Reflexiones finales
 - ***Juan José***: Me parece una manera muy eficaz a la hora de hacer esta práctica, ya que aprendimos a base de buscar la información. Tambien recalcar el trabajar en grupo y en remoto ya que es muy importante el saberte conectar remotamente, tambien los comandos utilizados como el Git pull, el Git commit, etc.
-- ***Jose María***: Es una buena manera de hacer trabajos con diferentes puntos de vistas es interesante porque al poder comparar diferentes ideas con los compañeros ves los errores y aciertos que probablemente solo no verias.
+- ***Jose María***: Es una buena manera de hacer trabajos con diferentes puntos de vistas es interesante porque al poder comparar diferentes ideas con los compañeros ves los errores y aciertos que probablemente solo no verias .
 - ***Teresa***: Al empezar el proyecto pensé que no nos daría tiempo a terminarlo, ya que se veía algo muy extenso y complicado, y teniendo en cuenta que trabajabamos en remoto era complicado contactar a la vez todos. Pero el resultado del trabajo ha sido bastante satisfactorio.
 
 
