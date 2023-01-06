@@ -131,51 +131,73 @@ Para crear estas tablas, han sido necesarios muchos datos que se relacionan con 
 #### Países
 En esta tabla se incluyen todos los países ganadores de una medalla como mínimo.
 La tabla contiene un identificador del país y el nombre del mismo.
+
+
 ![TablaPaises][img200]
 
 [img200]: https://github.com/Juanjo1357/Proyecto-mysql/blob/main/Tablas%20individuales/Paises.png "TablaPaises"
 #### Categorías
 En esta tabla se dividirán las participaciones masculinas y femeninas, se tendrá en cuenta para identificar a los competidores y poder hacer consultas en base al género por el que compiten.
+
+
 ![TablaCategorias][img201]
 
 [img201]: https://github.com/Juanjo1357/Proyecto-mysql/blob/main/Tablas%20individuales/Categorias.png "TablaCategorias"
 #### Medallas
 En esta tabla se asociará un id_medalla a cada una de las tres posibles (oro, bronce y plata), también se trata de un dato para poder hacer consultas, como la tabla de medallas totales por país.
+
+
 ![TablaMedallas][img202]
 
 [img202]: https://github.com/Juanjo1357/Proyecto-mysql/blob/main/Tablas%20individuales/Medallas.png "TablaMedallas"
 #### Estilos de nado
+En esta tabla se identificarán los diferentes estilos de nado con sus determinadas distancias, se ha escogido que cada distancia determine un nuevo estilo de nado, es decir el estilo freestyle se identificará con distintos id_estilo según la distancia (100m,200m,400m...)
 
 ![TablaEstilos_nado][img203]
 
 [img203]: https://github.com/Juanjo1357/Proyecto-mysql/blob/main/Tablas%20individuales/Estilos_nado.png "TablaEstilos_nado"
 #### Competidores
+Esta es una de las tablas que más información contiene, identificará al competidor con un número, que contendrá los datos de su nombre, apellido, país y categoría en la que compite. 
+
 
 ![TablaCompetidores][img204]
 
 [img204]: https://github.com/Juanjo1357/Proyecto-mysql/blob/main/Tablas%20individuales/Competidores.png "TablaCompetidores"
 #### Equipos
+En esta tabla se identificarán los equipos que compiten en los relevos, cada competidor puede estar en distintos equipos, y pueden ser mixtos, es por eso que tanto el id_equipo como el id_competidor deben ser Primary Key. 
+
 
 ![TablaEquipos][img205]
 
 [img205]: https://github.com/Juanjo1357/Proyecto-mysql/blob/main/Tablas%20individuales/Equipos.png "TablaEquipos"
 #### Clasificación Individual
+Otra de las tablas que más información y relaciones contiene, en este caso se trata de las participaciones individuales por lo que es necesario identificar a cada competidor, el estilo con el que participa y la medalla que ha conseguido, todos estos datos son referencias a otras tablas, exceptuando el del tiempo.
+
 
 ![TablaClasificacion_individual][img206]
 
 [img206]: https://github.com/Juanjo1357/Proyecto-mysql/blob/main/Tablas%20individuales/Clasificacion_individual.png "TablaClasificacion_individual"
 #### Clasificación Grupal
+Esta tabla se parece mucho a la anterior, pero la diferencia está en que, al ser grupal, se identifica al equipo y no al competidor. Y como diferencia, se ha optado por tener en cuenta el tiempo total del equipo, ya que es al que se está identificando en la tabla, en vez del tiempo individual.
+
 
 ![TablaClasificacion_grupal][img207]
 
 [img207]: https://github.com/Juanjo1357/Proyecto-mysql/blob/main/Tablas%20individuales/Clasificacion_grupal.png "TablaClasificacion_grupal"
 #### Récords
+Esta tabla incluye los récords batidos durante la competición, algunos individuales, otros en grupo y algunos en los que únicamente se identifica al país. Algunos incluso no tienen fecha. Es por eso que en esta tabla puede ser nulo el competidor y la fecha. 
+
 
 ![TablaRecords][img208]
 
 [img208]: https://github.com/Juanjo1357/Proyecto-mysql/blob/main/Tablas%20individuales/Records.png "TablaRecords"
 
 ### Relaciones entre tablas
+Una de las partes más complicadas, teniendo en cuenta que las tablas de clasificación individual y grupal son prácticamente iguales. 
+
+Como hemos explicado en los anteriores puntos, las tres principales tablas son las de clasificaciones y récords, que son las que más referencias a otras tablas tienen.
+
+
 
 ## Conexión
 Pantallazo de la conexión de datagrip con la base de datos
