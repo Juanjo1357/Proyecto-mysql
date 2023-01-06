@@ -145,11 +145,35 @@ En esta tabla se asociará un id_medalla a cada una de las tres posibles (oro, b
 
 [img202]: https://github.com/Juanjo1357/Proyecto-mysql/blob/main/Tablas%20individuales/Medallas.png "TablaMedallas"
 #### Estilos de nado
+
+![TablaEstilos_nado][img203]
+
+[img203]: https://github.com/Juanjo1357/Proyecto-mysql/blob/main/Tablas%20individuales/Estilos_nado.png "TablaEstilos_nado"
 #### Competidores
+
+![TablaCompetidores][img204]
+
+[img204]: https://github.com/Juanjo1357/Proyecto-mysql/blob/main/Tablas%20individuales/Competidores.png "TablaCompetidores"
 #### Equipos
+
+![TablaEquipos][img205]
+
+[img205]: https://github.com/Juanjo1357/Proyecto-mysql/blob/main/Tablas%20individuales/Equipos.png "TablaEquipos"
 #### Clasificación Individual
+
+![TablaClasificacion_individual][img206]
+
+[img206]: https://github.com/Juanjo1357/Proyecto-mysql/blob/main/Tablas%20individuales/Clasificacion_individual.png "TablaClasificacion_individual"
 #### Clasificación Grupal
+
+![TablaClasificacion_grupal][img207]
+
+[img207]: https://github.com/Juanjo1357/Proyecto-mysql/blob/main/Tablas%20individuales/Clasificacion_grupal.png "TablaClasificacion_grupal"
 #### Récords
+
+![TablaRecords][img208]
+
+[img208]: https://github.com/Juanjo1357/Proyecto-mysql/blob/main/Tablas%20individuales/Records.png "TablaRecords"
 
 ### Relaciones entre tablas
 
