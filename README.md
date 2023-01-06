@@ -2,7 +2,7 @@
 # Proyecto-MySQL
 ### Indice
 * [Introducción](#introducción)
-* [Instalación MySQL](#instalación MySQL)
+* [Instalación MySQL](#instalación)
 * [Contraseñas root](#contraseñas)
 * [Creación de usuarios](#usuarios)
 * [Diseño de la base de datos](#diseño)
@@ -20,7 +20,7 @@ Por último, se ha realizado una conexión entre Git y MySQL con DataGrip, y Dat
 
 Los tres integrantes del proyecto tenemos acceso al repositorio en línea de GitHub para poder actualizar los datos del proyecto, compartirlos y tener un control de las versiones.
  
-## Instalación MySQL
+## Instalación
 En primer lugar se elegirá el tipo de inicio, en nuestro caso será la primera opción "Developer Default", para instalar todos los productos necesarios para *MySQL*.
 ![Instalacion1][img1]
 
