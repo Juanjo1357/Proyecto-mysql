@@ -337,7 +337,15 @@ SELECT * FROM Paises;
 INSERT INTO Records (fecha, id_estilo, tiempo, id_competidor, id_pais)
 VALUES (('2022-06-20'),8,'00:07:39.36',11,19);
 
-SELECT * FROM Records;
+INSERT INTO Equipos (id_equipo, id_competidor)
+VALUES (10,114), (10,74),(10,72),(10,115);
+
+INSERT INTO Records (fecha, id_estilo, tiempo, id_pais)
+VALUES (('2022-06-22'),5,'00:07:41.45',19);
+
+DELETE FROM records
+WHERE Records.id_competidor <11;
 
 INSERT INTO Records (id_estilo, tiempo, id_pais)
 VALUES (20,'00:03:27.51',9);
+select * from records
