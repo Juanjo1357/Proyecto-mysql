@@ -138,7 +138,7 @@ La tabla contiene un identificador del país y el nombre del mismo.
 En esta tabla se dividirán las participaciones masculinas y femeninas, se tendrá en cuenta para identificar a los competidores y poder hacer consultas en base al género por el que compiten.
 ![TablaCategorias][img201]
 
-[img201]: https://github.com/Juanjo1357/Proyecto-mysql/blob/main/Tablas%20individuales/Paises.png "TablaCategorias"
+[img201]: https://github.com/Juanjo1357/Proyecto-mysql/blob/main/Tablas%20individuales/Categorias.png "TablaCategorias"
 #### Medallas
 En esta tabla se asociará un id_medalla a cada una de las tres posibles (oro, bronce y plata), también se trata de un dato para poder hacer consultas, como la tabla de medallas totales por país.
 ![TablaMedallas][img202]
