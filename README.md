@@ -10,7 +10,7 @@
 * [Conexión en DataGrip](#conexión)
 * [Conclusiones](#conclusiones)
 ## Introducción
-### En este proyecto se creará una base de datos relacional sobre el **Mundial de Natación de Budapest de 2022**.
+En este proyecto se creará una base de datos relacional sobre el **Mundial de Natación de Budapest de 2022**.
 
 Para ello, en primer lugar se ha instalado **MySQL** y se ha conectado con **DataGrip**, ya que es desde donde se creará la base de datos.
 
@@ -130,7 +130,10 @@ Para crear estas tablas, han sido necesarios muchos datos que se relacionan con 
 
 #### Países
 En esta tabla se incluyen todos los países ganadores de una medalla como mínimo.
+La tabla contiene un identificador del país y el nombre del mismo.
+![TablaPaises][img200]
 
+[img200]: https://github.com/Juanjo1357/Proyecto-mysql/blob/main/Tablas%20individuales/Paises.png "TablaPaises"
 #### Categorías
 #### Medallas
 #### Estilos de nado
