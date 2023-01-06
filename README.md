@@ -10,7 +10,7 @@
 * [Conexión en DataGrip](#conexión)
 * [Conclusiones](#conclusiones)
 ## Introducción
-En este proyecto se creará una base de datos relacional sobre el **Mundial de Natación de Budapest de 2022**.
+### En este proyecto se creará una base de datos relacional sobre el **Mundial de Natación de Budapest de 2022**.
 
 Para ello, en primer lugar se ha instalado **MySQL** y se ha conectado con **DataGrip**, ya que es desde donde se creará la base de datos.
 
@@ -156,16 +156,11 @@ Después, nos saldrá una ventanita el cual tendremos que ponerle un **Nombre**,
 
 ## Conclusiones
 dificultades y problemas
-***Juan José:***
-***Jose María:***
-***Teresa:***
+***Juan José***:
+***Jose María***:
+***Teresa***:
 aspectos positivos
-***Juan José:***
-***Jose María:***
-***Teresa:***
 reflexiones finales
-***Juan José:***
-***Jose María:***
-***Teresa:***
+
 
 
