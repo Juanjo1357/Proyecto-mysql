@@ -29,7 +29,7 @@ En segundo lugar, se elegirá dónde instalar el workbench, que es la herramient
 ![Instalacion2][img2]
 
 [img2]: https://github.com/Juanjo1357/Proyecto-mysql/blob/main/ProcesoInstalacion/Instalacion02.png "Instalacion2"
-La instalación da un aviso de que dos productos tienen fallos en los requisitos que no se pueden arreglar automáticamente, sino que se tiene que hacer manual. En este caso no es importante ya que son complementos para Phyton y Visual Studio Code, que no se van a usar para este proyecto.
+La instalación dá un aviso de que dos productos tienen fallos en los requisitos que no se pueden arreglar automáticamente, sino que se tiene que hacer manual. En este caso no es importante ya que son complementos para Phyton y Visual Studio Code, que no se van a usar para este proyecto.
 ![Instalacion3][img3]
 
 [img3]: https://github.com/Juanjo1357/Proyecto-mysql/blob/main/ProcesoInstalacion/Instalacion03.png "Instalacion3"
@@ -156,7 +156,16 @@ Después, nos saldrá una ventanita el cual tendremos que ponerle un **Nombre**,
 
 ## Conclusiones
 dificultades y problemas
+***Juan José:***
+***Jose María:***
+***Teresa:***
 aspectos positivos
+***Juan José:***
+***Jose María:***
+***Teresa:***
 reflexiones finales
+***Juan José:***
+***Jose María:***
+***Teresa:***
 
 
