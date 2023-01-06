@@ -118,9 +118,6 @@ Una vez divididos los datos en tablas, se empiezan a diseñar las tablas con Ado
 
 Hechas las tablas y sus restricciones, se finalizan las relaciones, que permiten eliminar tablas y metadatos redundantes.
 
-![DiseñoBD20][img20]
-
-[img20]: https://github.com/Juanjo1357/Proyecto-mysql/blob/main/tablasgbd.jpg "DiseñoBD20"
 
 ### Tablas
 Las tres tablas creadas más importantes han sido **la de Competidores, la de Clasificación Individual y la de Clasificación Grupal**.
@@ -198,6 +195,9 @@ Una de las partes más complicadas, teniendo en cuenta que las tablas de clasifi
 Como hemos explicado en los anteriores puntos, las tres principales tablas son las de clasificaciones y récords, que son las que más referencias a otras tablas tienen.
 
 
+![DiseñoBD20][img20]
+
+[img20]: https://github.com/Juanjo1357/Proyecto-mysql/blob/main/tablasgbd.jpg "DiseñoBD20"
 
 ## Conexión
 Pantallazo de la conexión de datagrip con la base de datos
