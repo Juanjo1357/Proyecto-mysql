@@ -156,15 +156,15 @@ Después, nos saldrá una ventanita el cual tendremos que ponerle un **Nombre**,
 
 ## Conclusiones
 ### Dificultades y problemas
-- ***Juan José***:
+- ***Juan José***: Tuve algún problema a la hora de conectarme remotamente, ya qué me daba un error un poco extraño.
 - ***Jose María***:
 - ***Teresa***:
 ### Aspectos positivos
-- ***Juan José***:
+- ***Juan José***: Aprendimos a trabajar en grupo y de forma remota.
 - ***Jose María***:
 - ***Teresa***:
 ### Reflexiones finales
-- ***Juan José***:
+- ***Juan José***: Me parece una manera muy eficaz a la hora de hacer esta práctica, ya que aprendimos a base de buscar la información. Tambien recalcar el trabajar en grupo y en remoto ya que es muy importante el saberte conectar remotamente, tambien los comandos utilizados como el Git pull, el Git commit, etc.
 - ***Jose María***:
 - ***Teresa***:
 
