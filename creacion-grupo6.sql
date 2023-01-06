@@ -338,7 +338,6 @@ SELECT * FROM Records;
 
 UPDATE Records SET id_pais=9 WHERE id_competidor=18;
 
-
 INSERT INTO Records (fecha, id_estilo, tiempo, id_competidor, id_pais)
 VALUES (('2022-06-20'),8, '00:00:51.60',18,9);
 
